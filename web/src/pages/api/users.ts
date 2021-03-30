@@ -7,5 +7,5 @@ export default (request: NextApiRequest, response: NextApiResponse) => {
     { id: 1, name: 'Olívia' }
   ];
 
-  return response.json(users);
+  //return response.json(users);
 } 
