@@ -8,22 +8,24 @@ export default function Posts() {
         <title>Posts | Ignews</title>
       </Heed>
 
-      <main>
-        <a>
-          <time>12 de março de 2021</time>
-          <strong>Creating Testing</strong>
-          <p>In this post a will testing...</p>
-        </a>
-        <a>
-          <time>12 de março de 2021</time>
-          <strong>Creating Testing</strong>
-          <p>In this post a will testing...</p>
-        </a>
-        <a>
-          <time>12 de março de 2021</time>
-          <strong>Creating Testing</strong>
-          <p>In this post a will testing...</p>
-        </a>
+      <main className={styles.container}>
+        <div className={styles.posts}>
+          <a href="#">
+            <time>12 de março de 2021</time>
+            <strong>Lorem ipsum dolor sit amet</strong>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta sagittis lacus</p>
+          </a>
+          <a href="#"> 
+            <time>12 de março de 2021</time>
+            <strong>Lorem ipsum dolor sit amet</strong>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta sagittis lacus</p>
+          </a>
+          <a href="#">
+            <time>12 de março de 2021</time>
+            <strong>Lorem ipsum dolor sit amet</strong>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta sagittis lacus</p>
+          </a>
+        </div>
       </main>
     </>
   );
