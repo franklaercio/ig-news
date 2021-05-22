@@ -23,8 +23,6 @@
 
 ## :bookmark_tabs: Resume of application
 
-<!-- This project is a tool for list movies. In this app is possible select movie by category. The project was created by [Rocketseat](https://rocketseat.com.br/) and refactore by me. -->
-
 <!--<p align="center">
 <img src="https://user-images.githubusercontent.com/38151364/112096249-ab3c6680-8b7c-11eb-98d5-da960d6bf8b4.png" alt ="App running" />
 </p>-->
