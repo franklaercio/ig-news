@@ -23,10 +23,6 @@
 
 ## :bookmark_tabs: Resume of application
 
-<!--<p align="center">
-<img src="https://user-images.githubusercontent.com/38151364/112096249-ab3c6680-8b7c-11eb-98d5-da960d6bf8b4.png" alt ="App running" />
-</p>-->
-
 ## :mag_right: Getting Started
 
 ```terminal
