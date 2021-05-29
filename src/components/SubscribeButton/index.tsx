@@ -19,12 +19,12 @@ export function SubscribeButton({ priceId }: SubscribeButtonProps) {
     }
 
     if (session.activeSubscription) {
-      router.push('/posts')
+      router.push('/post')
       return;
     }
 
     try {
-      const response = await api.post('/subscribe');
+      const response = await api.post('/subscribtion');
 
       const { sessionId } = response.data;
 
