@@ -18,13 +18,13 @@ export function SubscribeButton({ priceId }: SubscribeButtonProps) {
       return;
     }
 
-    if (session.activeSubscription) {
+    if (session?.activeSubscription) {
       router.push('/post')
       return;
     }
 
     try {
-      const response = await api.post('/subscribtion');
+      const response = await api.post('/subscribe');
 
       const { sessionId } = response.data;
 
