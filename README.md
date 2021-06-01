@@ -23,10 +23,40 @@
 
 ## :bookmark_tabs: Resume of application
 
-## :mag_right: Getting Started
+This is a private blog. It's possible create content with a CMS and receive for subscription an app. The project is a part of Ignite of Rocktseat and use the follow technologies:
+* Next.js
+* Stripe
+* Prismic
+* Github Auth 
 
-```terminal
-yarn dev
+<p align="center">
+  <img alt="Home" width="98%" src="screenshots/screenshot-localhost_3000-2021.06.01-00_56_13.png" />
+  <img alt="Posts" width="49%" src="screenshots/screenshot-localhost_3000-2021.06.01-00_57_06.png" />
+  <img alt="Post" width="49%" src="screenshots/screenshot-localhost_3000-2021.06.01-00_57_31.png" />
+  <img alt="Posts" width="49%" src="screenshots/screenshot-localhost_3000-2021.06.01-01_45_06.png" />
+  <img alt="Post" width="49%"src="screenshots/screenshot-checkout.stripe.com-2021.06.01-01_02_15.png" />
+</p>
+
+## 🎲 Running the project
+
+```bash
+# Clone this repository
+$ git clone https://github.com/franklaercio/ig-news
+
+# Access the project folder in the terminal/cmd
+$ cd ig-news
+
+# Set environment
+$ cp .env.example .env.local
+
+# Compile the code
+$ yarn
+
+# Run stripe webhook and set STRIPE_WEBHOOK_SECRET on .env.local
+$ stripe listen --forward-to localhost:3000/api/webhooks 
+
+# Run the application
+$ yarn dev
 ```
 
 ## :man_technologist: Authors
