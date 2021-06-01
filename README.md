@@ -23,7 +23,7 @@
 
 ## :bookmark_tabs: Resume of application
 
-This is a private blog. It's possible create content with a CMS and receive for subscription an app. The project is a part of Ignite of Rocktseat and use the follow technologies:
+This is a private blog. It's possible to create content with a CMS and receive cash by subscription. The project is a part of Ignite of Rocktseat and use the follow technologies:
 * Next.js
 * Stripe
 * Prismic
